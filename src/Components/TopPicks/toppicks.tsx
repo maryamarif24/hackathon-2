@@ -3,14 +3,14 @@ import Image from 'next/image'
 
 const toppicks = () => {
   return (
-    <div className="top-picks">
-        <div className="top-picks-header">
+    <div className="top-picks max-md:w-[768px]">
+        <div className="top-picks-header max-md:w-[768px]">
             <div className="top-picks-header-content">
-                <div className="tphc-1">Top Picks For You</div>
-                <div className="tphc-2">Find a bright ideal to suit your taste with our great selection of suspension, floor and table lights.</div>
+                <div className="tphc-1 max-md:text-[32px] max-md:ml-[120px] max-md:text-center ">Top Picks For You</div>
+                <div className="tphc-2 max-md:w-[540px] max-md:text-center ">Find a bright ideal to suit your taste with our great selection of suspension, floor and table lights.</div>
             </div>
         </div>
-        <div className="top-picks-content">
+        <div className="top-picks-content max-md:w-[768px] max-md:block max-md:h-[1272px] max-md:mb-[20px] max-md:ml-[120px] ">
             <div className="container-1">
                 <div className="container-img">
                     <Image
@@ -68,7 +68,7 @@ const toppicks = () => {
                 </div>
             </div>
         </div>
-        <div className="more-btn">
+        <div className="more-btn max-md:w-[768px] max-md:mt-[270px] max-md:block max-md:pl-[190px] max-md:text-left ">
             <div className="item-text">
                 <p>View More</p>
             </div>

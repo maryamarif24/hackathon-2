@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const items = () => {
   return (
-    <div className="items">
+    <div className="items max-md:w-[768px]">
         <div className="item1">
             <Image
                 src="/Images/SideTable.PNG"
@@ -22,7 +22,7 @@ const items = () => {
                 width={400}
                 height={450}
                 alt="Sofa"
-                className="ml-[60px]"
+                className="ml-[60px] max-md:ml-0"
             />
             <h2>Side Table</h2>
             <div className="item-text">

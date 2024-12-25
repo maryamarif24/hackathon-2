@@ -3,16 +3,16 @@ import Image from 'next/image'
 
 const blogs = () => {
   return (
-    <div className="blogs">
-        <div className="blog-header">
-            <div className="blog-header-content">
-                <div className="bhc-1">Our Blogs</div>
-                <div className="bhc-2">Find a bright ideal to suit your taste with our great selection</div>
+    <div className="blogs max-md:w-[768px] ">
+        <div className="blog-header max-md:w-[768px]">
+            <div className="blog-header-content max-md:w-[768px] max-md:items-center">
+                <div className="bhc-1 max-md:w-[768px] max-md:text-[30px] max-md:m-0 max-md:mb-[20px] max-md:ml-[200px] ">Our Blogs</div>
+                <div className="bhc-2 max-md:w-[479px] max-md:text-center max-md:m-0 max-md:p-0 max-md:ml-[60px] ">Find a bright ideal to suit your taste with our great selection</div>
             </div>
         </div>
-        <div className="blog-content">
-            <div className="b-c-details">
-                <div className="b-c-d-1">
+        <div className="blog-content max-md:w-[768px] max-md:block max-md:h-[1000px]">
+            <div className="b-c-details max-md:w-[768px] max-md:block max-md:h-[1000px] max-md:ml-[100px]">
+                <div className="b-c-d-1  max-md:w-[768px] max-md:mb-[20px]">
                     <div className="bcd1-img">
                         <Image
                             src="/Images/Blog1.svg"
@@ -48,7 +48,7 @@ const blogs = () => {
                         </div>
                     </div>
                 </div>
-                <div className="b-c-d-2">
+                <div className="b-c-d-2 max-md:mb-[20px]">
                     <div className="bcd1-img">
                         <Image
                             src="/Images/Blog2.svg"
@@ -84,7 +84,7 @@ const blogs = () => {
                         </div>
                     </div>
                 </div>
-                <div className="b-c-d-3">
+                <div className="b-c-d-3 max-md:mb-[20px]">
                     <div className="bcd1-img">
                         <Image
                             src="/Images/Blog3.svg"
@@ -121,10 +121,10 @@ const blogs = () => {
                     </div>
                 </div>
             </div>
-            <div className="blg-button">
+            <div className="blg-button max-md:w-[768px] max-md:mt-[800px] max-md:m-0 max-md:p-0 max-md:-ml-[120px] ">
                 <div className="blog-btn">
                     <div className="blog-text">
-                        <p>View All Post</p>
+                        <a href="/Blog">View All Post</a>
                     </div>
                 </div>
             </div>
